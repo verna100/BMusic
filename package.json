@@ -1,0 +1,22 @@
+{
+  "name": "bmusic",
+  "version": "1.0.0",
+  "description": "Musician Webpage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "build": "ng build",
+    "heroku-postbuild": "ng build --prod" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/verna100/BMusic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/verna100/BMusic/issues"
+  },
+  "homepage": "https://github.com/verna100/BMusic#readme"
+}
