@@ -2,7 +2,7 @@
   "name": "bmusic",
   "version": "1.0.0",
   "description": "Musician Webpage",
-  "main": "index.js",
+  "main": "server.js",
   "engines": {
     "node": "10.3.0",
     "npm": "6.x"
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/verna100/BMusic/issues"
   },
-  "homepage": "https://github.com/verna100/BMusic#readme"
+  "homepage": "https://github.com/verna100/BMusic#readme",
+  "dependencies": {
+    "cool-ascii-faces": "^1.3.4"
+  }
 }

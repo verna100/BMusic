@@ -1,5 +1,6 @@
   /* Load the HTTP library */
   var http = require("http");
+  const cool = require('cool-ascii-faces')
 
 //   /* Create an HTTP server to handle responses */
 
