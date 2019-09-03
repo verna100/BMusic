@@ -2,7 +2,7 @@
   "name": "bmusic",
   "version": "1.0.0",
   "description": "Musician Webpage",
-  "main": "server.js",
+  "main": "index.js",
   "engines": {
     "node": "10.3.0",
     "npm": "6.x"
