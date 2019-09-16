@@ -1,6 +1,6 @@
 body{
     margin:auto;
-    background:rgb(250, 244, 244);
+    background: black;
 }
 
 .first {
@@ -17,7 +17,7 @@ body{
 
 .first{
         position: absolute;
-        top: 0;
+        top: 40px;
         left: 0;
         width: 100%;
         /* height: 700px; */
@@ -46,10 +46,22 @@ a{
     padding: 5px;
   }
 
-  img.cover{
-      width: 450px;
-      height: 425px;
+  footer{
+      color:rgb(88, 88, 88);
+      float:right;
   }
+
+  img.cover{
+        width: 100px;
+        height: 420px;
+        /* background: red; */
+        border-radius: 22%;
+    
+  }
+  img.cover:hover{
+      opacity: 0.5;
+  }
+  
   
   /* Clear floats after image containers */
   .row::after {
@@ -94,10 +106,12 @@ h1{
 h2{
     text-align: center;
     text-decoration: bold;
+    color: white;
+    font-size:26px;
 }
 
 h2,p{
-    color: black;
+    color: white;
     font-family: 'Merriweather', serif;
     /* text-align:center; */
     flex-wrap:flex;
@@ -111,19 +125,8 @@ p{
 }
 
 .link{
-    color:navy;
+    color: whitesmoke;
 }
-
-
-/* header.masthead {
-    text-align: center;
-    color: white;
-    background-image: url("./assets/img/forest.jpg");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover;
-  } */
 
 nav {
 	display: flex;
@@ -145,7 +148,7 @@ section{
     opacity:0.5;
 }
 .songlink{
-    color:black;
+    color:white;
     padding-left:205px;
 }
 
@@ -155,33 +158,6 @@ section{
 		flex-direction: column;
     }
 } */
-
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
-  
-  /* Style the submit button with a specific background color etc */
-  input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
   
   /* Add a background color and some padding around the form */
   .container {
