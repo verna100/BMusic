@@ -39,7 +39,7 @@ a{
 }
 
 #about{
-    margin-top:1090px;
+    padding-top: 1033px;
     text-align: center;
     text-decoration: bold;
 }
@@ -53,13 +53,13 @@ a{
 
   .fab{
       color:white;
-      align-content: center;
-      padding-left: 380px;
+      /* align-content: center; */
+      padding-left: 50px;
       
   }
   .far{
     color:white;
-    padding-left:380px;
+    padding-left:50px;
     
 }
 
@@ -105,10 +105,12 @@ a{
     color: white;
     font-size: 20px;
     background: black;
+    margin-left: 46%;
+    margin-top: 60%;
     /* box-align: center; */
     /* padding-right: 50% */
     /* margin-top: 17%;
-    margin-left:48%; */
+    margin-left:48%; */ 
 
 
 }
