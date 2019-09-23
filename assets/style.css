@@ -3,35 +3,19 @@ body{
     background: black;
 }
 
-.first {
-	position: absolute;
+.first{ 
+    position: absolute;
+    margin-top: 17px;
 	top:40px;
 	left: 0;
 	width: 100%;
-	/* height: 700px; */
-	/* background-size: cover; */
-	z-index: -1;
-    /* background-color: #80a3db; */
-    /* padding-bottom: 400px; */
-}
+} 
 
 .firstone{
-    min-height: 100%;
-    min-width: 1024px;
     width:100%;
-    height:auto;
+    height:100%;
     position:absolute;
-    top:0;
-    left:0;
-}
-
-/* @media screen and (max-width: 1024px){
-    .firstone{
-        left:50%;
-    }
-} */
-
-
+} 
 
 a{
     color:white;
@@ -39,49 +23,51 @@ a{
 }
 
 #about{
-    padding-top: 1033px;
+    margin-top: 70%;
     text-align: center;
     text-decoration: bold;
 }
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
+/* .column {
     float: left;
     width: 33.33%;
     padding: 5px;
-  }
+  } */
 
-  .fab{
+  /* IG icon */
+.fab{
       color:white;
       /* align-content: center; */
       padding-left: 50px;
       
-  }
-  .far{
+}
+/* email icon */
+.far{
     color:white;
     padding-left:50px;
     
 }
 
-  footer{
-      color:rgb(88, 88, 88);
-      float:right;
-  }
+footer{
+    color:rgb(88, 88, 88);
+    float:right;
+}
 
-  img.cover{
-        width: 100px;
-        height: 420px;
-        /* background: red; */
-        border-radius: 22%;
+img.cover{
+    width: 100px;
+    height: 420px;
+    border-radius: 22%;
     
-  }
-  img.cover:hover{
+}
+
+img.cover:hover{
       opacity: 0.5;
-  }
+}
   
   
   /* Clear floats after image containers */
-  .row::after {
+  /* .row::after {
     content: "";
     clear: both;
     display: table;
@@ -96,24 +82,31 @@ a{
   }
   
   /* Create three equal columns that sits next to each other */
-  .column {
+  /* .column {
     flex: 33.33%;
     padding: 5px;
-  }
+  }  */
 
 #enter{
-    color: white;
+    color: black;
     font-size: 20px;
-    background: black;
-    margin-left: 46%;
-    margin-top: 60%;
-    /* box-align: center; */
-    /* padding-right: 50% */
-    /* margin-top: 17%;
-    margin-left:48%; */ 
-
-
+    float:right;
+    -webkit-animation: enterbutton 1s infinite;  /* Safari 4+ */
+    -moz-animation: enterbutton 1s infinite;  /* Fx 5+ */
+    -o-animation: enterbutton 1s infinite;  /* Opera 12+ */
+    animation: enterbutton 1s infinite;  /* IE 10+, Fx 29+ */
 }
+      
+@-webkit-keyframes enterbutton {
+    0%, 49% {
+        background-color: rgb(94, 95, 93);
+        border: 3px solid black;
+    }
+    50%, 100% {
+        background-color: black;
+        border: 3px solid rgb(94, 95, 93);
+    }
+} 
 
 h1{
     color:white;
@@ -132,57 +125,62 @@ h2{
 h2,p{
     color: white;
     font-family: 'Merriweather', serif;
-    /* text-align:center; */
     flex-wrap:flex;
     padding-left: 40px;
     padding-right: 40px;
     
-}
+} 
 
 p{
-   font-size:18px;
+   font-size:22px;
 }
 
 .link{
     color: whitesmoke;
 }
 
-.navbar navbar-expand-lg navbar-primary bg-light {
+.navbar navbar-expand-lg navbar-dark bg-dark {
 	/* display: flex; */
     /* margin-right: -15px; */
-    color:black;
+    color:#313233;
+    /* font:white; */
     text-align:right;
     float:right;
     /* margin-top:-160px; */
-    padding-bottom: 20px;
+    margin-bottom: 30px;
 
-} 
+}   
 
 li {
     margin: 0 15px;
     color:white;
 }
 
-section{
+/* section{
     background:#fff;
     opacity:0.5;
-}
-.songlink{
+} */
+
+/* btn btn-dark btn-xs songlink{
+    text-align: center;
+    padding-left: 40px;
+
+} */
+/* .songlink{
     color:white;
     padding-left:205px;
-}
+} */
 
-/* @media (max-width: 800px) {
-	header {
-		padding: 20px 50px;
-		flex-direction: column;
+/* @media (max-width: 500px) {
+	#enter {
+        margin-left: 70%;
+        margin-top: 108%
+    }
+    .firstone{
+        width: 500px;
+        height: 275px;
     }
 } */
   
-  /* Add a background color and some padding around the form */
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
+
 

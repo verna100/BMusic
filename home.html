@@ -2,41 +2,39 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset='utf-8'>
 
         <!-- Bootstrap core CSS -->
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">        <link rel ="stylesheet" type="text/css" href="./assets/style.css">
         <link href="https://fonts.googleapis.com/css?family=Teko&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
-        
-        
-
         <title></title>
     </head>
 
-    <body>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                    <a class="navbar-brand" href="#"></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                      <ul class="navbar-nav">
-                        <li class="nav-item">
-                          <a class="nav-link" href="#about">About Me</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#music">Music</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="./pages/artists.html">Artists</a>
-                        </li>
-                        
-                      </ul>
-                    </div>
-                  </nav>
+<body>
+        <nav class="navbar navbar-expand navbar-dark bg-dark">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#music">Music</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#artists">Artists</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
         <div class>
             <header>
                 <img src="./assets/img/bobbfb.jpg" class ="first">
@@ -51,7 +49,7 @@
                         That's why his music hits you both in the head and the heart. His lyrics about being
                         broken, hopeful and totally hopeless stay in the brightest spotlight. Bobby Sant's
                         songwriting is constantly searching for those timeless melodies. It’s been his
-                        trademark ever since the debut album <a href="https://open.spotify.com/album/3SAaIw77RP0IZqGrIQUH0O" target="_blank" class="link">It's Just a Lonely Feeling</a> from 2012 (with cover
+                        trademark ever since the debut album <a href="https://open.spotify.com/album/3SAaIw77RP0IZqGrIQUH0O" target="_blank" class="link"><em>It's Just a Lonely Feeling</em></a> from 2012 (with cover
                         art from Townes Van Zandt's daughter Katie). - T.J.
                 </p>
                 <p>"…Jag hoppas att alla hibernaltrallare på båda sidor av Atlanten verkligen lyssnar på
@@ -66,32 +64,36 @@
         <br>
 
         <div id ="music">
-            <h2>My Music</h2>
+            <h2>Music</h2>
             <div></div>
             <br>
             <br>
-            <div class="row">
-                    <div class="col-lg-3">
-                      <img src="./assets/img/comeseesaw.jpg" alt="comeseesaw" style="width:100%" class ="cover" onclick="">
-                      <a href="https://open.spotify.com/album/6tKlJ0yXJQYIBy6DO3PuGf" target = "_blank" class="songlink">Click Here</a>
-                    </div>
-                    <div class="col-lg-3">
-                      <img src="./assets/img/deadtown.jpg" alt="deadtown" style="width:100%" class= "cover">
-                      <a href="https://open.spotify.com/album/2z0yh1idUuxYDDMevgyIDP" target="_blank" class="songlink">Click Here</a>
-                    </div>
-                    <div class="col-lg-3">
-                      <img src="./assets/img/idala.jpg" alt="idala" style="width:100%" class="cover">
-                      <a href="https://open.spotify.com/album/2jTbDWXyos2dv9f9l5aPmO" target = "_blank" class="songlink">Click Here</a>
-                    </div>
-                    <div class="col-lg-3">
-                            <img src="./assets/img/lonelyfeeling.jpg" alt="lonelyfeeling" style="width:100%" class="cover">
-                            <a href="https://open.spotify.com/album/4hk5UkC1yz1BnspmlcbPQF" target = "_blank" class="songlink">Click Here</a>
-                          </div>
-                  </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <a href="https://open.spotify.com/album/6tKlJ0yXJQYIBy6DO3PuGf" target = "_blank" class="btn btn-dark btn-xs songlink"><img src="./assets/img/comeseesaw.jpg" alt="comeseesaw" style="width:100%" class ="cover" >Click for more</a>
+            </div>
+            <div class="col-lg-3">
+                <a href="https://open.spotify.com/album/2z0yh1idUuxYDDMevgyIDP" target="_blank" class="btn btn-dark btn-xs songlink"><img src="./assets/img/deadtown.jpg" alt="deadtown" style="width:100%" class= "cover">Click for more</a>
+            </div>
+            <div class="col-lg-3">
+                <a href="https://open.spotify.com/album/2jTbDWXyos2dv9f9l5aPmO" target = "_blank" class="btn btn-dark btn-xs songlink"><img src="./assets/img/idala.jpg" alt="idala" style="width:100%" class="cover">Click for more</a>
+            </div>
+            <div class="col-lg-3">
+                <a href="https://open.spotify.com/album/4hk5UkC1yz1BnspmlcbPQF" target = "_blank" class="btn btn-dark btn-xs songlink"><img src="./assets/img/lonelyfeeling.jpg" alt="lonelyfeeling" style="width:100%" class="cover">Click for more</a>
+            </div>
+        </div>
         </div>
 
         <br>
         <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div>
+                <h2>&#128293 &#128293 &#128293 New Releases &#128293 &#128293 &#128293</h2>
+        </div>
         <br>
         <br>
         <br>
@@ -120,21 +122,8 @@
             </div>
         </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         <script src="https://kit.fontawesome.com/674d28cd57.js"></script>
-  
+        <scriptsrc="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
     </body>
 </html>
