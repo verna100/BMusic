@@ -39,6 +39,10 @@ h2{
     padding-left:0;
 }
 
+#online{
+    padding-left: 0px;
+}
+
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 /* .column {
     float: left;
