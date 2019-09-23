@@ -22,14 +22,21 @@ a{
     padding-top:20px;
 }
 
+a.nr{
+    font-size: 30px;
+    text-decoration:bold;
+    padding-left:50px;
+}
+
 
 #about{
     margin-top: 80%;
-    text-align: center;
+    /* text-align: center; */
     text-decoration: bold;
 }
-.contactme{
+h2{
     text-align: left;
+    padding-left:0;
 }
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
@@ -120,7 +127,7 @@ h1{
 }
 
 h2{
-    text-align: center;
+    /* text-align: center; */
     text-decoration: bold;
     color: white;
     font-size:36px;
@@ -130,8 +137,8 @@ h2,p{
     color: white;
     font-family: 'Merriweather', serif;
     flex-wrap:flex;
-    padding-left: 40px;
-    padding-right: 40px;
+    /* padding-left: 40px; */
+    /* padding-right: 40px; */
     
 } 
 
