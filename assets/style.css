@@ -27,6 +27,9 @@ a{
     text-align: center;
     text-decoration: bold;
 }
+.contactme{
+    text-align: left;
+}
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 /* .column {
@@ -151,6 +154,7 @@ p{
 
 }   
 
+
 li {
     margin: 0 15px;
     color:white;
@@ -170,17 +174,32 @@ li {
     color:white;
     padding-left:205px;
 } */
-
-/* @media (max-width: 500px) {
-	#enter {
-        margin-left: 70%;
-        margin-top: 108%
-    }
-    .firstone{
-        width: 500px;
-        height: 275px;
-    }
-} */
   
+  @media screen and (min-width: 370px) {
+    
+    .first{
+        width:125%;
+    }
+    .about{
+        margin-top: 550px;
+    }
+    .new{
+        font-size: 18px;
+    }
+    
+    footer{
+        text-align: left;
+        font-size: 10px;
+    }
+    .row {
+            text-align: center;
+        }
+    h1, p{
+        text-align: center;
+    }
+.navbar navbar-expand-lg navbar-dark bg-dark{
+    width: 150%;
+}
 
+  }
 
