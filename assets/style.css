@@ -22,8 +22,9 @@ a{
     padding-top:20px;
 }
 
+
 #about{
-    margin-top: 70%;
+    margin-top: 80%;
     text-align: center;
     text-decoration: bold;
 }
@@ -70,7 +71,7 @@ img.cover:hover{
   
   
   /* Clear floats after image containers */
-  /* .row::after {
+.row::after {
     content: "";
     clear: both;
     display: table;
@@ -142,17 +143,17 @@ p{
     color: whitesmoke;
 }
 
-.navbar navbar-expand-lg navbar-dark bg-dark {
-	/* display: flex; */
+/* .navbar navbar-expand-sm navbar-dark bg-dark {
+	display: flex;
     /* margin-right: -15px; */
-    color:#313233;
+    /* color:#313233; */
     /* font:white; */
-    text-align:right;
-    float:right;
+    /* text-align:right; */
+    /* float:right; */
     /* margin-top:-160px; */
-    margin-bottom: 30px;
+    /* margin-bottom: 100px; */
 
-}   
+/* }    */ */
 
 
 li {
@@ -175,16 +176,26 @@ li {
     padding-left:205px;
 } */
   
-  @media screen and (min-width: 370px) {
+  @media screen and (max-width: 500px) {
     
     .first{
-        width:125%;
+        width:100%;
+        /* margin-top: 176px; */
+    }  
+    #about{
+        margin-top: 190%;
     }
-    .about{
-        margin-top: 550px;
+
+    img .cover{
+        width: 420px;
+        height: 400px;
+        margin-bottom: 100px;
+        justify-content: center;
+        /* background-size:cover; */
     }
+
     .new{
-        font-size: 18px;
+        font-size: 16px;
     }
     
     footer{
@@ -197,9 +208,49 @@ li {
     h1, p{
         text-align: center;
     }
-.navbar navbar-expand-lg navbar-dark bg-dark{
-    width: 150%;
-}
+    .navbar{
+        width: 125%;
+        /* margin:auto; */
+        margin-bottom: 100px;
+    }
+
+  }
+
+  @media screen and (max-width: 576px) {
+    /* body{
+        margin:auto;
+    } */
+    
+    .first{
+        width:125%;
+        margin-top: 176px;
+    }
+    #about{
+        margin-top: 145%;
+    }
+    .new{
+        font-size: 16px;
+    }
+    
+    footer{
+        text-align: left;
+        font-size: 10px;
+    }
+    .row {
+            text-align: center;
+        }
+    h1, p{
+        text-align: center;
+    }
+    .fab, .far{
+        float: left;
+        font-size:18px;
+    }
+/* .navbar navbar-expand-sm navbar-dark bg-dark{
+    width: 100%;
+    /* margin:auto; */
+    /* margin-bottom: 100px; */
+/* } */ 
 
   }
 
