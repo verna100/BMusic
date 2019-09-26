@@ -70,7 +70,7 @@ footer{
 }
 
 img.cover{
-    width: 100px;
+    width: 100%;
     height: 420px;
     border-radius: 22%;
     
@@ -198,66 +198,102 @@ li {
         color:yellow;
     }
     
-  }
+}
   
   /* 
     ##Device = Laptops, Desktops
     ##Screen = B/w 1025px to 1280px
   */
   
-  @media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 1025px) and (max-width: 1280px) {
     
     //CSS
     
-  }
+}
   
   /* 
     ##Device = Tablets, Ipads (portrait)
     ##Screen = B/w 768px to 1024px
   */
   
-  @media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     
-    //CSS
     
-  }
+    
+}
   
   /* 
     ##Device = Tablets, Ipads (landscape)
     ##Screen = B/w 768px to 1024px
   */
   
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     
     //CSS
     
-  }
+}
   
   /* 
     ##Device = Low Resolution Tablets, Mobiles (Landscape)
     ##Screen = B/w 481px to 767px
   */
   
-  @media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 767px) {
     
-    p{
-        background:red;
-    }
+.topnav{
+    width: 125%;
+    background:rgb(33, 33, 34);
+    padding-top:20px;
+    padding-bottom:10px;
+}
+.nava{
+    padding-left:15px;
+}
+img.cover{
+    width: 420px;
+    height: 400px;
+    margin-bottom: 100px;
+    /* justify-content: center; */
+        /* background-size:cover; */
+}
     
-  }
+}
   
   /* 
     ##Device = Most of the Smartphones Mobiles (Portrait)
     ##Screen = B/w 320px to 479px
   */
   
-  @media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px) {
     
-    p{
-        background:pink;
-    }
-    
+/* p{
+    background:pink;
+} */
+.first{
+    width:100%;
+        /* margin-top: 176px; */
+}
+#about{
+    margin-top: 190%;
+} 
+.topnav{
+    width: 100%;
+    background:rgb(33, 33, 34);
+    padding-top:20px;
+    padding-bottom:10px;
+}
+h1, p{
+    text-align: center;
+}
+  p{
+      font-size: 16px;
   }
+h2{
+    font-size: 20px;
+}
+    
+}  
+   
   
 
 
@@ -269,13 +305,7 @@ li {
   /* DONT EVEN BOTHER BELOW HERE */
   /* @media screen and (max-width: 500px) {
     
-    .first{
-        width:100%;
-        /* margin-top: 176px; */
-    /* }  
-    #about{
-        margin-top: 190%;
-    } */
+   
 
     /* img .cover{
         width: 420px;
@@ -299,11 +329,7 @@ li {
     h1, p{
         text-align: center;
     } */
-    /* .navbar{
-        width: 125%;
-        /* margin:auto; */
-        /* margin-bottom: 100px;
-    }  */
+   
 
   /* } */
 
@@ -330,9 +356,7 @@ li {
     .row {
             text-align: center;
         }
-    h1, p{
-        text-align: center;
-    }
+    
     .fab, .far{
         float: left;
         font-size:18px;
