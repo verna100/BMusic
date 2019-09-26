@@ -79,34 +79,6 @@ img.cover{
 img.cover:hover{
       opacity: 0.5;
 }
-
-/* Add a black background color to the top navigation */
-.topnav {
-    background-color: #333;
-    overflow: hidden;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: #4CAF50;
-    color: white;
-  }
   
   
   /* Clear floats after image containers */
@@ -214,68 +186,134 @@ li {
     color:white;
     padding-left:205px;
 } */
-  
-  @media screen and (min-width: 500px) {
 
-    a.songlink{
-        margin-bottom: 70px;
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+    body{
+        color:yellow;
     }
     
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    //CSS
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    //CSS
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    //CSS
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    p{
+        background:red;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    p{
+        background:pink;
+    }
+    
+  }
+  
+
+
+
+
+
+
+
+  /* DONT EVEN BOTHER BELOW HERE */
+  /* @media screen and (max-width: 500px) {
+    
     .first{
-        width:91%;
-        margin-top: 67px;
-        padding-left: 9%;
-    }  
+        width:100%;
+        /* margin-top: 176px; */
+    /* }  
     #about{
-        margin-top: 80%;
-    }
+        margin-top: 190%;
+    } */
 
-    img.cover{
-        width: 300px;
-        height: 380px;
-        margin-top:40px;
-       
-        /* justify-content: center; */
-        
-    }
+    /* img .cover{
+        width: 420px;
+        height: 400px;
+        margin-bottom: 100px;
+        justify-content: center;
+        /* background-size:cover; */
+    /* } */ 
 
-    .new{
+    /* .new{
         font-size: 16px;
     }
     
     footer{
         text-align: left;
         font-size: 10px;
-    }
-    .row {
+    } */
+    /* .row {
             text-align: center;
         }
     h1, p{
-        text-align: left;
-        font-size: 16px;
-        padding-left: 5%;
-    }
-
-    h2{
-        font-size: 28px;
-        padding-left: 5%;
-
-    }
+        text-align: center;
+    } */
     /* .navbar{
         width: 125%;
         /* margin:auto; */
-        /* margin-bottom: 100px; */
-    /* } */ 
+        /* margin-bottom: 100px;
+    }  */
 
-  }
+  /* } */
 
-  @media screen and (min-width: 576px) {
+  /* @media screen and (max-width: 576px) { */
     /* body{
         margin:auto;
     } */
     
-    .first{
-        width:91%;
+    /* .first{
+        width:125%;
         margin-top: 176px;
     }
     #about{
@@ -298,12 +336,12 @@ li {
     .fab, .far{
         float: left;
         font-size:18px;
-    }
+    } */
 /* .navbar navbar-expand-sm navbar-dark bg-dark{
     width: 100%;
     /* margin:auto; */
     /* margin-bottom: 100px; */
 /* } */ 
 
-  }
+  /* } */
 
