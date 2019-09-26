@@ -269,28 +269,42 @@ img.cover{
 /* p{
     background:pink;
 } */
-.first{
-    width:100%;
-        /* margin-top: 176px; */
-}
-#about{
-    margin-top: 190%;
-} 
-.topnav{
-    width: 100%;
-    background:rgb(33, 33, 34);
-    padding-top:20px;
-    padding-bottom:10px;
-}
-h1, p{
-    text-align: center;
-}
-  p{
-      font-size: 16px;
-  }
-h2{
-    font-size: 20px;
-}
+    .first{
+        width:100%;
+            /* margin-top: 176px; */
+    }
+    #about{
+        margin-top: 90%;
+    } 
+    .topnav{
+        width: 100%;
+        background:rgb(33, 33, 34);
+        padding-top:20px;
+        padding-bottom:10px;
+    }
+    .nava{
+        padding-left:15px;
+    }
+    p{
+        text-align: left;
+    }
+    p{
+        font-size: 14px;
+    }
+    h2{
+        font-size: 30px;
+        text-align:center;
+    }
+    img.cover{
+        width: 370px;
+        height: 400px;
+        margin-bottom: 100px;
+        /* justify-content: center; */
+            /* background-size:cover; */
+    }
+    #song{
+        padding-left:3px;
+    }
     
 }  
    
