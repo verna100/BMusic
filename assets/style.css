@@ -304,12 +304,18 @@ img.cover{
     }
     #song{
         padding-left:3px;
+        font-size:18px;
     }
     #fire{
         padding-left:1px;
-        font-size:18px;
+        font-size:24px;
     }
-    
+    a.nr{
+        font-size: 20px;
+        /* text-decoration:bold; */
+        padding-left:50px;
+        text-align:center;
+    }
 }  
    
   
