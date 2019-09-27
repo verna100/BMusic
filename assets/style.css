@@ -4,11 +4,11 @@ body{
 }
 
 .first{ 
-    position: absolute;
+    position: relative;
     margin-top: 17px;
 	top:40px;
 	left: 0;
-	width: 100%;
+	width: 125%;
 } 
 
 .firstone{
@@ -30,7 +30,7 @@ a.nr{
 
 
 #about{
-    margin-top: 80%;
+    margin-top: 130%;
     /* text-align: center; */
     text-decoration: bold;
 }
@@ -194,9 +194,39 @@ li {
 */
 
 @media (min-width: 1281px) {
-    body{
-        color:yellow;
+    #about{
+        margin-top:15%; 
     }
+    .first{ 
+        /* position: absolute; */
+        margin-top: 35px;
+        /* margin-left:50px; */
+        width: 100%;
+        border-radius:33px;
+    } 
+    img.cover{
+        width: 106%;
+        height: 420px;
+        border-radius: 7%;
+        
+    }
+    .topnav{
+        width: 125%;
+        background:rgb(33, 33, 34);
+        padding-top:10px;
+        padding-bottom:30px;
+        font-size:22px;
+    }
+    .nava{
+        padding-left:35px;
+        
+    }
+    /* .col-lg-3{
+        display:flex;
+        width:50%;
+        margin-bottom:40px;
+    } */
+    
     
 }
   
@@ -207,7 +237,26 @@ li {
   
 @media (min-width: 1025px) and (max-width: 1280px) {
     
-    //CSS
+    #about{
+        margin-top:20%; 
+    }
+    .topnav{
+        width: 125%;
+        background:rgb(33, 33, 34);
+        padding-top:10px;
+        padding-bottom:30px;
+        font-size:22px;
+    }
+    .nava{
+        padding-left:35px;
+        
+    }
+    .col-lg-3{
+        display:flex;
+        width:50%;
+        margin-bottom:40px;
+    }
+    
     
 }
   
@@ -217,8 +266,25 @@ li {
   */
   
 @media (min-width: 768px) and (max-width: 1024px) {
-    
-    
+    #about{
+        margin-top:100%; 
+    }
+    .topnav{
+        width: 125%;
+        background:rgb(33, 33, 34);
+        padding-top:10px;
+        padding-bottom:30px;
+        font-size:22px;
+    }
+    .nava{
+        padding-left:35px;
+        
+    }
+    .col-lg-3{
+        display:flex;
+        width:50%;
+        margin-bottom:40px;
+    }
     
 }
   
@@ -229,8 +295,22 @@ li {
   
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     
-    //CSS
-    
+    /* .topnav{
+        width: 125%;
+        background:rgb(33, 33, 34);
+        padding-top:20px;
+        padding-bottom:10px;
+    }
+    .nava{
+        padding-left:15px;
+    }
+    img.cover{
+        width: 30px;
+        height: 200px;
+        margin-bottom: 100px;
+        /* justify-content: center; */
+            /* background-size:cover; */
+    /* }  */
 }
   
   /* 
@@ -253,6 +333,7 @@ img.cover{
     width: 420px;
     height: 400px;
     margin-bottom: 100px;
+    padding-left:40px;
     /* justify-content: center; */
         /* background-size:cover; */
 }
@@ -274,7 +355,7 @@ img.cover{
             /* margin-top: 176px; */
     }
     #about{
-        margin-top: 90%;
+        margin-top: 110%;
     } 
     .topnav{
         width: 100%;
@@ -289,18 +370,18 @@ img.cover{
         text-align: left;
     }
     p{
-        font-size: 14px;
+        font-size: 12px;
     }
     h2{
         font-size: 30px;
-        text-align:center;
+        text-align:left;
     }
     img.cover{
-        width: 370px;
+        width: 330px;
         height: 400px;
-        margin-bottom: 100px;
-        /* justify-content: center; */
-            /* background-size:cover; */
+        margin-bottom: 50px;
+        padding-left:10px;
+        border-radius: 22px;
     }
     #song{
         padding-left:3px;
