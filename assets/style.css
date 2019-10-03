@@ -95,6 +95,14 @@ img.cover:hover{
   .row {
     display: flex;
   }
+
+/* Artist style page */
+.artpage{
+    font-family:'Pacifico', cursive;
+    text-align: center;
+    font-size: 86px;
+    margin-top:250px;
+}
   
 /* Holy Roller page styles */
 
