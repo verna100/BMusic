@@ -100,8 +100,26 @@ img.cover:hover{
 .artpage{
     font-family:'Pacifico', cursive;
     text-align: center;
-    font-size: 86px;
+    font-size: 66px;
     margin-top:250px;
+}
+
+/* newsletter box styling */
+h3{
+    text-align: left;
+    padding-left:10px;
+    color: white;
+    font-family: 'Merriweather', serif;
+    flex-wrap:flex;
+
+}
+.nl{
+    padding-left:15px;
+}
+.newsletter{
+    color:slategrey;
+    font:white;
+    font-size:22px;
 }
   
 /* Holy Roller page styles */

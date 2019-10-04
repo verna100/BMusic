@@ -16,8 +16,8 @@
 
   var database = firebase.database();
   
-  // Reference messages collection
-  var messagesRef = firebase.database().ref('messages');
+  // Reference subscribers collection
+  var subscribersRef = firebase.database().ref('subscribers');
   
   // Listen for form submit
   document.getElementById('contactForm').addEventListener('submit', submitForm);
@@ -28,24 +28,13 @@
   
     // Get values
     var name = getInputVal('name');
-    var company = getInputVal('company');
     var email = getInputVal('email');
-    var phone = getInputVal('phone');
-    var message = getInputVal('message');
   
     // Save message
-    saveMessage(name, company, email, phone, message);
+    saveSubscriber(name, email);
   
-    // // Show alert
-    // document.querySelector('.alert').style.display = 'block';
-  
-    // // Hide alert after 3 seconds
-    // setTimeout(function(){
-    //   document.querySelector('.alert').style.display = 'none';
-    // },3000);
-  
-    // // Clear form
-    // document.getElementById('contactForm').reset();
+    // Clear form
+    document.getElementById('contactForm').reset();
   }
   
   // Function to get get form values
@@ -53,14 +42,15 @@
     return document.getElementById(id).value;
   }
   
-  // Save message to firebase
-  function saveMessage(name, company, email, phone, message){
-    var newMessageRef = messagesRef.push();
-    newMessageRef.set({
+  // Save Subscriber to firebase
+  function saveSubscriber(name, email){
+    var newSubscriberRef = subscribersRef.push();
+    newSubscriberRef.set({
       name: name,
-      company:company,
-      email:email,
-      phone:phone,
-      message:message
+      email:email
     });
+  }
+
+  function submitted() {
+    alert("Submitted, Thanks!");
   }
