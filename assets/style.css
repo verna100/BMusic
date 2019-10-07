@@ -12,8 +12,9 @@ body{
 } 
 
 .firstone{
+    /* margin:auto; */
     width:100%;
-    height:100%;
+    margin-top:90px;
     position:absolute;
 } 
 
@@ -78,6 +79,12 @@ img.cover{
 
 img.cover:hover{
       opacity: 0.5;
+}
+
+.mainpg{
+    margin-top:38px;
+    font-family: 'Rock Salt', cursive;
+    font-size:60px;
 }
   
   
@@ -194,6 +201,7 @@ h1 {
     -moz-animation: enterbutton 1s infinite;  /* Fx 5+ */
     -o-animation: enterbutton 1s infinite;  /* Opera 12+ */
     animation: enterbutton 1s infinite;  /* IE 10+, Fx 29+ */
+    margin-top:20px;
 }
       
 @-webkit-keyframes enterbutton {
@@ -340,6 +348,9 @@ li {
         width:50%;
         margin-bottom:40px;
     }
+    .mainpg{
+        font-size: 46px;
+    }
     
     
 }
@@ -369,6 +380,12 @@ li {
         width:50%;
         margin-bottom:40px;
     }
+    /* #enter{ */
+        /* margin-top: -10px; */
+    /* } */
+    .mainpg{
+        font-size: 35px;
+    }
     
 }
   
@@ -378,6 +395,12 @@ li {
   */
   
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    #enter{
+        margin-top: 40px;
+    }
+    .mainpg{
+        font-size: 30px;
+    }
     
     /* .topnav{
         width: 125%;
@@ -405,6 +428,13 @@ li {
 @media (min-width: 481px) and (max-width: 767px) {
 #about{
     margin-top:20%;
+}
+
+#enter{
+    margin-top:40px;
+}
+.mainpg{
+    font-size: 23px;
 }
     
 .topnav{
@@ -444,6 +474,12 @@ img.cover{
     #about{
         margin-top: 25%;
     } 
+    #enter{
+        margin-top: -10px;
+    }
+    .mainpg{
+        font-size: 16px;
+    }
     .topnav{
         width: 100%;
         background:rgb(33, 33, 34);
@@ -498,6 +534,9 @@ img.cover{
     }
     h3{
         font-size: 18px;
+    }
+    .firstone{
+        margin-top:30px;
     }
     
     
